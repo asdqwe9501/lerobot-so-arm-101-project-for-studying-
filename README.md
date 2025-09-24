@@ -9,7 +9,7 @@
 # 참고자료 
 
 https://hyundoil.tistory.com/469
-개인이 so arm에 대해 정리 된 내용 담아둔 곳입니다 
+개인이 so arm에 대해 정리 된 내용을 담아둔 곳입니다 
 
 https://github.com/huggingface/lerobot
 lerobt 코드에 대한 내용입니다 
