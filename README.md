@@ -1,5 +1,5 @@
 # lerobot-so-arm-101-project-for-studying
-
+![Image](https://github.com/user-attachments/assets/680fef63-f0e6-44d1-9aed-6b7dc6eaad69)
 
 
 
