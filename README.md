@@ -35,9 +35,6 @@ lerobot-find-port
 
 * 예: `COM3`, `COM4`
 
-  * `COM3` → **Follower Arm**
-  * `COM4` → **Leader Arm**
-
 ---
 
 ## 2. 모터 설정 (Motor Setup)
