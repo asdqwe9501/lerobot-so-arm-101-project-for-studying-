@@ -137,6 +137,8 @@ lerobot-teleoperate \
 * 리더 암을 움직이면 팔로워 암이 동일한 동작을 수행합니다.
 * 연결 성공 시 콘솔에 `"connected"` 메시지가 표시됩니다.
 
+![Image](https://github.com/user-attachments/assets/a6bd1568-5d39-4819-bbc1-994f7ba60087)
+
 ---
 
 ## 캘리브레이션 데이터 저장 경로
