@@ -11,6 +11,11 @@
 
 **모터 인식 → 캘리브레이션 → 원격 조정(Teleoperation)** 까지 수행하는 전체 과정을 정리한 가이드입니다.
 
+
+로봇 조립 및 모터 설정에 관한 내용 
+https://huggingface.co/docs/lerobot/so101
+
+
 ---
 
 ## 개발 환경
