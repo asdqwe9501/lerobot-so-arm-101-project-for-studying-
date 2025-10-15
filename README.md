@@ -11,6 +11,15 @@
 
 **모터 인식 → 캘리브레이션 → 원격 조정(Teleoperation)** 까지 수행하는 전체 과정을 정리한 가이드입니다.
 
+---
+| Leader-Arm Axis      | Motor | Gear Ratio |
+|-----------------------|-------|------------|
+| Base / Shoulder Pan   | 1     | 1 / 191    |
+| Shoulder Lift         | 2     | 1 / 345    |
+| Elbow Flex            | 3     | 1 / 191    |
+| Wrist Flex            | 4     | 1 / 147    |
+| Wrist Roll            | 5     | 1 / 147    |
+| Gripper               | 6     | 1 / 147    |
 
 로봇 조립 및 모터에 관한 내용 
 https://huggingface.co/docs/lerobot/so101
