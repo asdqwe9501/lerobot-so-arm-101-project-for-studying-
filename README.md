@@ -11,7 +11,7 @@
 
 **모터 인식 → 캘리브레이션 → 원격 조정(Teleoperation)** 까지 수행하는 전체 과정을 정리한 가이드입니다.
 
----
+
 | Leader-Arm Axis      | Motor | Gear Ratio |
 |-----------------------|-------|------------|
 | Base / Shoulder Pan   | 1     | 1 / 191    |
