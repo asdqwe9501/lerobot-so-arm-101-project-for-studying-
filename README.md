@@ -39,6 +39,8 @@ https://huggingface.co/docs/lerobot/so101
 
 먼저 로봇의 시리얼 포트를 확인합니다. 
 컨트롤 보드에 USB포트와 어댑터를 연결한 후 파이썬 터미널에 아래 명령어를 실행합니다.
+
+
 영상 참조 https://huggingface.co/docs/lerobot/so101
 
 ```bash
@@ -52,6 +54,8 @@ lerobot-find-port
 ## 2. 모터 설정 (Motor Setup)
 
 순서에 따라 모터들을 컨트롤 보드에 연결한 후 각 모터 ID를 순서대로 등록합니다.
+
+
 영상 참조 https://huggingface.co/docs/lerobot/so101
 
 
@@ -93,6 +97,8 @@ Connect the controller board to the 'gripper' motor only and press enter.
 
 모든 관절의 최소/최대/중앙 위치를 기록하여 동작 범위를 보정합니다.
 명령어 실행 한 후 Calibration 영상에 따라 각 모터들은 움직여줍니다. 
+
+
 영상 참조 https://huggingface.co/docs/lerobot/so101
 
 ### 🦿 Follower Arm Calibration
@@ -140,6 +146,8 @@ C:\Users\곽동현\.cache\huggingface\lerobot\calibration\teleoperators\so101_le
 ## 4. 원격 조정 (Teleoperation)
 
 리더 암(Leader Arm)의 움직임을 팔로워 암(Follower Arm)에 실시간으로 전달합니다.
+
+
 영상 참조 https://huggingface.co/docs/lerobot/so101
 
 ```bash
