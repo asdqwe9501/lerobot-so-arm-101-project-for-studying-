@@ -25,16 +25,21 @@ https://huggingface.co/docs/lerobot/so101
 | OS        | Windows 10 / 11                 |
 | 실행 환경     | **Visual Studio Code (VSCode)** |
 | Python 버전 | 3.10 이상 권장                      |
-| 패키지 설치    | `pip install lerobot`           |
+| 패키지 설치    | `lerobot`           |
 | 실행 터미널    | VSCode 내장 터미널 (PowerShell)      |
 
 >  *콘다 환경에서도 가능하지만, 본 실습은 VSCode 기본 Python 환경에서 진행되었습니다.*
+> 
+> 패키지 설치 방법 https://huggingface.co/docs/lerobot/installation
+> 
 
 ---
 
 ## 1. 포트 찾기
 
-먼저 로봇의 시리얼 포트를 확인합니다.
+먼저 로봇의 시리얼 포트를 확인합니다. 
+컨트롤 보드에 USB포트와 어댑터를 연결한 후 파이썬 터미널에 아래 명령어를 실행합니다.
+영상 참조 https://huggingface.co/docs/lerobot/so101
 
 ```bash
 lerobot-find-port
@@ -46,7 +51,9 @@ lerobot-find-port
 
 ## 2. 모터 설정 (Motor Setup)
 
-각 모터의 ID를 순서대로 등록합니다.
+순서에 따라 모터들을 컨트롤 보드에 연결한 후 각 모터 ID를 순서대로 등록합니다.
+영상 참조 https://huggingface.co/docs/lerobot/so101
+
 
 ### Follower Arm 설정
 
@@ -85,6 +92,8 @@ Connect the controller board to the 'gripper' motor only and press enter.
 ## 3. 캘리브레이션 (Calibration)
 
 모든 관절의 최소/최대/중앙 위치를 기록하여 동작 범위를 보정합니다.
+명령어 실행 한 후 Calibration 영상에 따라 각 모터들은 움직여줍니다. 
+영상 참조 https://huggingface.co/docs/lerobot/so101
 
 ### 🦿 Follower Arm Calibration
 
@@ -131,6 +140,7 @@ C:\Users\곽동현\.cache\huggingface\lerobot\calibration\teleoperators\so101_le
 ## 4. 원격 조정 (Teleoperation)
 
 리더 암(Leader Arm)의 움직임을 팔로워 암(Follower Arm)에 실시간으로 전달합니다.
+영상 참조 https://huggingface.co/docs/lerobot/so101
 
 ```bash
 lerobot-teleoperate \
